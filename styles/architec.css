@@ -83,3 +83,28 @@ nav li a{
         flex-direction: column;
     }
 }
+/* feature section style */
+.featur-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    align-items: center;
+}
+.featur-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.featur-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.featur-heading .quiqk-list{
+    color: #727272;
+    font-weight: 500;
+}
+.featur-heading .featur{
+    color: #FF900E;
+    font-weight: 700px;
+
+}
